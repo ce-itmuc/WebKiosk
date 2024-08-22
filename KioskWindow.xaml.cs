@@ -3,7 +3,7 @@
     using System.Windows;
     using System.Windows.Input;
 
-    public partial class KioskWindow : Window
+    public partial class KioskWindow
     {
         private readonly ExecutionStateAdapter _executionStateAdapter = new();
 
@@ -11,7 +11,7 @@
         {
             InitializeComponent();
 
-            PreviewKeyDown += new KeyEventHandler(HandleEscape);
+            PreviewKeyDown += HandleEscape;
         }
 
         private void MainWindow_OnLoaded(object sender, RoutedEventArgs e)

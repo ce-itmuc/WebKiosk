@@ -4,8 +4,9 @@
     using System.Configuration;
     using System.Windows;
 
-    public partial class App : Application
+    public partial class App
     {
+        // ReSharper disable once InconsistentNaming
         private static readonly ILog log = LogManager.GetLogger(typeof(Application));
 
         protected override void OnStartup(StartupEventArgs e)

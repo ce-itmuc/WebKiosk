@@ -18,6 +18,7 @@
         }
 
         [LibraryImport("kernel32.dll", SetLastError = true)]
+        // ReSharper disable once UnusedMethodReturnValue.Local
         private static partial uint SetThreadExecutionState(ExecutionState esFlags);
 
         #endregion
