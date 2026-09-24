@@ -1,2 +1,11 @@
+# Web Kiosk
+
 Kiosk host for other web-based applications in full-screen mode (kiosk mode). The kiosk declares the web-based application to be a playback stream to the Windows OS. The application is terminated using the ESCAPE key. The URL of the web application can be set via the application configuration file. It can serve as mitigation for browser or Windows operating system policies, which do not allow to use Edge, Chrome, or a similar browser to display the web-based application permanently to the user.
 
+## Configuration
+
+Change the Url parameter in the application configuration file to display a specific web page in kiosk mode, e. g. http://www.google.com.
+
+## Disclaimer
+
+Use of this application is on your own risk.
